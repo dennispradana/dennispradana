@@ -45,7 +45,7 @@ const Contact = () => {
             <p className='uppercase text-xl tracking-widest text-[#FCA61F] md:text-center' data-aos="zoom-in">contact</p>
             <h2 className='py-4 md:text-center' data-aos="zoom-in">Get in Touch</h2>
             <div className='grid lg:grid-cols-5 gap-8'>
-                {/* left */}
+        
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'  data-aos="fade-right">
                     <div className='lg:p-4 h-full'>
                         <div>
@@ -53,7 +53,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h3 className='py-2'>Dennis Oldyatha Pradana</h3>
-                            <p className='py-4'>I'm available for freelance or full-time posisitions. Contact me and let's talk</p>
+                            <p className='py-4'>I&apos;m available for freelance or full-time posisitions. Contact me and let&apos;s talk</p>
                         </div>
                         <p className=' uppercase pt-8 text-center'>Connect With Me</p>
                         <div className='flex items-center justify-center gap-10 py-4'>
@@ -72,7 +72,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                {/* right */}
+
                 <div className='w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lg:p-4' data-aos="fade-left">
                     <div className='p-4'>
                         <form onSubmit={handleSubmit(sendEmail)} >

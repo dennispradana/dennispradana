@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import React from 'react'
-import Link from 'next/link'
+import Image from 'next/image';
+import React from 'react';
+import Link from 'next/link';
 
 
 
@@ -23,26 +23,26 @@ const Intro = () => {
                     <div className="p-6">
                         <h2>Hallo, I am</h2>
                         <h1 className="py-2"> Dennis Oldyatha Pradana</h1>
-                        <h3>I'm a frond-end developer, let's work together and do something useful</h3>
+                        <h3>I&apos;m a frond-end developer, let&apos;s work together and do something useful</h3>
                     </div>
                     <Link href='/#Contact'>
                         <button className='mt-3 rounded-xl py-2 px-5 mb-8 cursor-pointer'>Hire Me</button>
                     </Link>
                     <div className="flex md:justify-center gap-8 items-center cursor-pointer">
                         <div onClick={github} className=' rounded-full p-3 shadow-black hover:shadow-xl hover:scale-105 ease-in duration-300'>
-                            <Image src="/../public/assets/sosialMedia/github.png" alt="/" width={'50'} height={'50'} />
+                            <Image src="/../public/assets/sosialMedia/github.png" alt="/" width='50' height='50' />
                         </div>
                         <div onClick={instagram} className=' rounded-full p-3 shadow-black hover:shadow-xl  hover:scale-105 ease-in duration-300'>
-                            <Image src="/../public/assets/sosialMedia/instagram.png" alt="/" width={'50'} height={'50'} />
+                            <Image src="/../public/assets/sosialMedia/instagram.png" alt="/" width='50' height='50' />
                         </div>
                         <div onClick={linkedin} className=' rounded-full p-3 shadow-black hover:shadow-xl  hover:scale-105 ease-in duration-300'>
-                            <Image src="/../public/assets/sosialMedia/linkedin.png" alt="/" width={'50'} height={'50'} />
+                            <Image src="/../public/assets/sosialMedia/linkedin.png" alt="/" width='50' height='50' />
                         </div>
                         
                     </div>
                 </div>
                 <div className='i-right text-center' data-aos="fade-left">
-                    <Image src="/../public/assets/dennis.png" alt="/" width={'500'} height={'500'} />
+                    <Image src="/../public/assets/dennis.png" alt="/" width='500' height='500' />
                 </div>
             </div>
         </div>

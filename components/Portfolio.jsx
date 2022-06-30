@@ -12,7 +12,7 @@ const Portfolio = () => {
     <div id='Portfolio' className='w-full scroll-mt-[50px]'>
         <div className='max-w-[1024px] mx-auto py-16 px-2' data-aos="zoom-in-up">
             <p className='uppercase text-xl tracking-widest text-[#FCA61F] md:text-center' data-aos="zoom-in-up">Portfolio</p>
-            <h2 className='py-4 md:text-center' data-aos="zoom-in-up">What I've Build</h2>
+            <h2 className='py-4 md:text-center' data-aos="zoom-in-up">What I&apos;ve Build</h2>
             <div className='grid md:grid-cols-2 gap-8'>
                 <PortfolioItem title='Portfolio 1' backgroundImg={portfolio1Img} build='QRCode Builder' portfolioUrl='/Portfolio1'  />
                 <PortfolioItem title='Portfolio 2' backgroundImg={portfolio2Img} build='Personal Website' portfolioUrl='/Portfolio2'  />
