@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
+import Github from '../public/assets/sosialMedia/github.png'
+import Instagram from '../public/assets/sosialMedia/instagram.png'
+import Linkedin from '../public/assets/sosialMedia/linkedin.png'
 
 
 
@@ -30,13 +33,13 @@ const Intro = () => {
                     </Link>
                     <div className="flex md:justify-center gap-8 items-center cursor-pointer">
                         <div onClick={github} className=' rounded-full p-3 shadow-black hover:shadow-xl hover:scale-105 ease-in duration-300'>
-                            <Image src="/../public/assets/sosialMedia/github.png" alt="/" width='50' height='50' />
+                            <Image src={Github} alt="/" width='50' height='50' />
                         </div>
                         <div onClick={instagram} className=' rounded-full p-3 shadow-black hover:shadow-xl  hover:scale-105 ease-in duration-300'>
-                            <Image src="/../public/assets/sosialMedia/instagram.png" alt="/" width='50' height='50' />
+                            <Image src={Instagram} alt="/" width='50' height='50' />
                         </div>
                         <div onClick={linkedin} className=' rounded-full p-3 shadow-black hover:shadow-xl  hover:scale-105 ease-in duration-300'>
-                            <Image src="/../public/assets/sosialMedia/linkedin.png" alt="/" width='50' height='50' />
+                            <Image src={Linkedin} alt="/" width='50' height='50' />
                         </div>
                         
                     </div>

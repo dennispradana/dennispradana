@@ -8,6 +8,7 @@ import { useForm } from 'react-hook-form';
 import {BsFillExclamationTriangleFill} from 'react-icons/bs'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import contact from '../public/assets/contact.png'
 
 const Contact = () => {
 
@@ -46,10 +47,10 @@ const Contact = () => {
             <h2 className='py-4 md:text-center' data-aos="zoom-in">Get in Touch</h2>
             <div className='grid lg:grid-cols-5 gap-8'>
         
-                <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'  data-aos="fade-right">
+                <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4' >
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/../public/assets/contact.png' alt='/' width={'250'} height={'250'}/>
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={contact} alt='/' width={'250'} height={'250'}/>
                         </div>
                         <div>
                             <h3 className='py-2'>Dennis Oldyatha Pradana</h3>
@@ -73,7 +74,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lg:p-4' data-aos="fade-left">
+                <div className='w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
                         <form onSubmit={handleSubmit(sendEmail)} >
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>

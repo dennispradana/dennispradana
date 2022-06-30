@@ -4,6 +4,7 @@ import {useRouter} from 'next/router'
 import React, {useState, useEffect} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import {FaLinkedin, FaInstagram, FaGithubSquare, FaTelegramPlane} from 'react-icons/fa'
+import logo from '../public/assets/logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -67,7 +68,7 @@ const Navbar = () => {
     <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] ' :'fixed w-full h-20 z-[100] '}>
         <div className="flex justify-between items-center h-full w-full px-2 2xl:px-16 backdrop-blur-md">
             <Link href='/'>
-                <Image src="/../public/assets/logo.png" alt="/"
+                <Image src={logo} alt="/"
                 width={'140'} 
                 height={'40'}/>
             </Link>
@@ -99,7 +100,7 @@ const Navbar = () => {
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         <Link href='/'>
-                            <Image src="/../public/assets/logo.png" alt="/" width={'100'} height={'40'} />
+                            <Image src={logo} alt="/" width={'100'} height={'40'} />
                         </Link>
                         <div onClick={handleNav} className=' rounded-full bg-white shadow-lg shadow-[#4f655f90] p-2 cursor-pointer'>
                             <AiOutlineClose/>
