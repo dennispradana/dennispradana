@@ -7,7 +7,7 @@ import bootstrap from '../public/assets/skill/bootstrap.png'
 import javascript from '../public/assets/skill/javascript.png'
 import nextjs from '../public/assets/skill/nextjs.png'
 import react from '../public/assets/skill/react.png'
-import tailwind from '../public/assets/skill/css.png'
+import tailwind from '../public/assets/skill/tailwind.png'
 
 const Skill = () => {
   return (
