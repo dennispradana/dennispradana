@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Github from '../public/assets/sosialMedia/github.png'
 import Instagram from '../public/assets/sosialMedia/instagram.png'
 import Linkedin from '../public/assets/sosialMedia/linkedin.png'
+import profile from '../public/assets/dennis.png'
 
 
 
@@ -45,7 +46,7 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className='i-right text-center' data-aos="fade-left">
-                    <Image src="/../public/assets/dennis.png" alt="/" width='500' height='500' />
+                    <Image src={profile} alt="/" width='500' height='500' />
                 </div>
             </div>
         </div>
