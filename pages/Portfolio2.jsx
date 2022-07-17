@@ -28,7 +28,7 @@ const Portfolio2 = () => {
                         <p className='text-bold text-center pb-2'>Technologi</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <p className='flex items-center text-gray-600 py-2 gap-4'><RiRadioButtonFill/> NextJS</p>
-                            <p className='flex items-center text-gray-600 py-2 gap-4'><RiRadioButtonFill/> NextJS</p>
+                            <p className='flex items-center text-gray-600 py-2 gap-4'><RiRadioButtonFill/> Tailwind CSS</p>
                         </div>
                     </div>
                 </div>
